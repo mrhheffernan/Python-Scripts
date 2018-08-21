@@ -23,7 +23,7 @@ SOFTWARE.
 """
 
 def quadsum(alist):
-    quadlist = []
-    for elem in alist:
-        quadlist.append(elem**2)
+    quadlist = [None for i in range(len(alist))]
+    for index in range(len(alist)):
+        quadlist[index] = alist[index]**2
     return sum(quadlist)**(.5)

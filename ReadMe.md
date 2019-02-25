@@ -15,3 +15,6 @@ Passing arguments from the command line can be extremely useful, especially when
 
 ###### quadsum.py
 Absolute errors on quantities with uncertainty add in quadrature. A short, but useful function can be written to handle this rather than adding it in every script.
+
+###### umat_mean.py
+Taking the element-wise mean of umatricies from the uncertainties.unumpy package is not a built in functionality. This rectifies that by using numpy to calculate the mean and then recompiles the result into a umatrix.

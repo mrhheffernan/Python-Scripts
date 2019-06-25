@@ -18,3 +18,6 @@ Absolute errors on quantities with uncertainty add in quadrature. A short, but u
 
 ###### umat_mean.py
 Taking the element-wise mean of umatricies from the uncertainties.unumpy package is not a built in functionality. This rectifies that by using numpy to calculate the mean and then recompiles the result into a umatrix.
+
+###### queuelength.py
+This is a simple way to count the current number of running jobs for a particular user in a SLURM queue
